@@ -1,0 +1,12 @@
+language: python
+
+python:
+  - "3.6"
+
+# Install dependencies
+install:
+  - pip install -r requirements.txt
+
+# Run unit test
+script:
+  - python app/app-test.py
